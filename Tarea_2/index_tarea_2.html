@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mendez Tinoco DIego Johan EPP">
+    <title>Etiquetas semanticas y de formateo de texto 2</title>
+</head>
+<body>
+
+      <!--citas cortas-->
+    
+     <p>Como dijo un sabio: "yo solo se, que no se nada" -Sabio</p> 
+     <p>Como dijo un sabio: <q>yo solo se, que no se nada</q>-Sabio</p>
+
+     <!--citas Largas-->
+
+     <p>Como dijo un sabio:</p>
+     <blockquote>
+     " Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore incidunt nobis obcaecati quibusdam repudiandae, 
+     consectetur sed eligendi non ipsa consequatur nisi minus
+      possimus maiores eum nihil sequi voluptates ipsam voluptatum."  
+
+      -Sabio
+     </blockquote>
+     <!--Con el blockquote se oueden hacer citas de varios renglones-->
+
+     <p>Esta es la primera linea <br> esta es la segunda linea <br>Esta es la tercera linea </p>
+     <br>
+     <p>Este es otro parrafo</p>
+     <!--br es un salto de linea en la misma linea, como un slide n, /n-->
+
+     <h2>Seccion 1</h2>
+     <p>Hola esta es la seccion 1</p>
+      <hr> <!--Este se usa para pintar una linea de separacion en la web y se malla, "REGLA HORIZONTAL"-->
+     <h2>Seccion 2</h2>
+     <p>Hola esta es la seccion 2</p>
+
+    <!--vISUALIZAR CODIGO EN UNA SOLA LINEA -->
+    <p>Cuando nostros inplemtentamos <code>print("Hola mundo")</code>  en python, la consola imprimira: Hola mundo</p>
+
+    <!--VISUALIZAR CODIGO EN VARUAS LINEAS      -->
+    <div style="background-color: blueviolet;">
+      <h3 >Suma de 2 numeros en python</h3>
+     <p>Este codigo imprime la suma de 2 numeros en python</p>     
+     <pre>
+       #suma de 2 numeros
+       a=2
+       b=3
+       print("El resultado es:"" a+b)
+
+     </pre> <!--Todo lo que esta dentro se imprime con monoespaciado-->
+     
+    </div>
+    
+     <hr>
+     <h3 style="background-color: red;">Hola mundo en HTML</h3>
+     <p>Este codigo muestra un hola mundo en HTML</p>
+
+     <!--Para escribir caracteres especiales como:<>
+          SE utilizan las entidades de HTML que permiten avisar al navegadors que vamos a
+          utilizar estos simbolos especiales, comienzan com & y cierran con n;
+          como:&lt; y &gt;-->
+ 
+          <pre>
+        &lt;body&gt;       
+
+        &lt;h1&gt; Hola mundo &lt;/h1&gt;
+
+        &lt;/body&gt;       
+     </pre>
+
+     <!--sE PUEDE REPRESENTAR LA ENTRADA DEL TECLADO MEDIANTE LA ETIQUETA <kdb>-->
+
+        <p>PAra copiar un texto seleccionelo con el mouse y haga <kbd><kbd>ctrl</kbd><kbd>+</kbd><kbd>C</kbd></kbd></p>
+
+</body>
+</html>
