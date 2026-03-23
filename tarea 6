@@ -114,6 +114,7 @@
 
        <section>
         <h2>Elementos principales de HTML</h2>
+
         <article><h3>Elmento &lt;a&gt; </h3><p>
          Elemento que se utiliza para enlazar o navegar a otras paginas o secciones.
          Hay 3 tipos de enlaces
@@ -134,6 +135,7 @@
 
         
         </article>
+
         <article>
             <h3>Elemento &lt;Formulario&gt;</h3>
             <p>
@@ -158,6 +160,19 @@
            </section>
 
      </main>
+     <footer>
+        <p>Cnntactanos </p>
+
+            <ul>
+                <li><a href="https://facebook.com">Facebook</a></li>
+                <li><a href="https://wa.me/757577575"></a>whastsapp</li>
+                <li><a href="https://"></a>Correrp</li>
+            </ul>
+         <p>Ubicacion</p>
+         <a href="https://www.google.com/maps" target="_blank" >visitanos</a>
+         <p>CC BY ND NC</p>
+
+     </footer>
 </body>
 </html>
 
