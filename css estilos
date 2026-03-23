@@ -1,0 +1,17 @@
+/*Selector de clases*/
+h2 {
+    color: red;
+}
+/**/
+.bg-article{
+    background-color: aqua;
+}
+
+.color-interno{
+    color: brown;
+}
+/*Selector de identificadores */
+
+#bg-h1{
+    background-color: chocolate;
+}
