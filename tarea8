@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Mendez Tinoco Diego Johan">
+    <title>Colores CSS</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+
+    <section>
+        <h1>Explorando los colores en CSS</h1>
+    </section>
+    
+     <main>
+        <section>
+            <article class="rgb">
+                <h2>Modelo RGB</h2>
+                <p>Este texto esta con RGB</p>
+            </article>
+
+             <article class="rgba">
+                <h2>Modelo RGB</h2>
+                <p>Este texto esta con RGBA</p>
+            </article>
+
+            <article class="hex">
+                <h2>Modelo HEX</h2>
+                <p>Este texto esta con HEX </p>
+            </article>
+           
+             <article class="hsl">
+                <h2>Modelo HEX</h2>
+                <p>Este texto esta con hsl </p>
+             </article>
+
+             <article class="hsla">
+                <h2>Modelo HEX</h2>
+                <p>Este texto esta con hsl </p>
+             </article>
+
+        </section>
+          <h2>Colores Multinavegador</h2>
+         <p>Hay  mas de 160 colores con nombre que son compatibles
+            con todos los navegadores modernos. Estos nombres se pueden
+            usar directamente en el archivo de estilos, para aplicar colores a 
+            elementos especificos sin especificar valores o modelos de color.
+            <br>
+            
+         </p>
+             <ol class="lista-ordenada">
+                <li class="black">Negro</li>
+                <li class="white">Blanco</li>
+                <li class="salmon">Salmon</li>
+                <li class="blue">Azul</li>
+                <li class="green">Verde</li>
+             </ol>
+
+             
+             </article>
+
+         <section>
+            <article class="border">
+                <h2>Colores de un borde</h2>
+                 <p>Para que un elemento HTML podamos asignarle un color a su borde
+                    son necesarias dos propiedades: border-style y border-color,
+                    adicionamlente s epuede modificas su tamaño utilizando border-size,
+
+                </p>
+            </article>
+         </section>    
+
+
+         <section>
+          <article>
+                <h2>Degradado de colores</h2>
+                <p>
+                    EN CSS podemos aplicar dos tipos de degradado de colores;
+
+                </p>
+                <article class="lineal">
+                <h3>Degradado lineal</h3>
+                <p>
+
+                    El degradado lineal es una transicion de un color a otro de forma lineal
+                </p>
+               </article>
+
+             <article class="radial">
+                <h3>Degradado Radial</h3>
+                <p>
+                    El degradado radial es una transicion de un color a otro de forma radial
+                </p>
+
+            </article>
+
+         </section>
+
+     <main>
+
+</body>
+</html>
