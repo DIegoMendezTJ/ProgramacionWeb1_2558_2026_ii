@@ -1,1 +1,1 @@
-Mi primer repositorio en donde aprende a usar, html y css
+Mi primer repositorio en donde aprendere a utilizar HTML y CSS
