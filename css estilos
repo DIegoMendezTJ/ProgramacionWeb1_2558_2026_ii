@@ -1,0 +1,86 @@
+/*MOdelos de COlor
+RGB*/
+.rgb{
+    background-color: rgb(255, 0, 0);
+}
+
+/*CO,binaciones de selectores 8clase padre y elemnetos hijos*/
+.rgb h2,p{
+    color: rgb(245, 245, 245);
+}
+/*RGBA*/
+.rgba{
+    background-color: rgb(0,0, 255);
+}
+
+.rgba h2{
+    color: rgba(21, 43, 238, 0.5);
+    color: rgba(0, 235, 235, 0.8);
+}
+
+/*Este es el modelo HEX*/
+
+.hex{
+    background-color: #00ff15;
+    color: #ffffff;
+}
+
+.hex h2{
+    color: #ca1515;
+}
+
+/*Modelo HSL*/
+.hsl{
+    background-color: hsl(34, 100%, 50%);
+    color: hsl(0, 0%, 0%);
+}
+
+.hsl h2{
+    color: hsl(2, 40%, 50%);
+    color: #b817ce;
+}
+
+.hsla{
+    background-color: #ca1515;
+}
+
+.hsla h2{
+    color: hsla(5, 5%, 5%, 5);
+}
+/*Colores multinavegador*/
+
+.lista-ordenada{
+    background-color: #dd1b1b;
+}
+
+.black{
+    color: black;
+}
+.white{
+    color: rgb(255, 255, 255);
+}
+.salmon{
+    color: rgb(252, 117, 234);
+}
+.blue{
+    color: rgb(0, 140, 255);
+}
+.green{
+    color: rgb(23, 236, 51);
+}
+
+.border{
+    background-color: #ffffff;
+    border-style: solid;
+    border-color:#ff08c9
+    /*border-whith*/
+}
+
+.lineal{
+    background-image: linear-gradient(to top,red,blue)
+}
+
+
+.radial{
+    background-image: radial-gradient( blue, red)
+}
