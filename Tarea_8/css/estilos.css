@@ -14,8 +14,12 @@ RGB*/
 }
 
 .rgba h2{
-    color: rgba(21, 43, 238, 0.5);
-    color: rgba(0, 235, 235, 0.8);
+    color: rgba(21, 43, 238, 0.2);
+    color: rgba(0, 235, 235, 0.5);
+}
+
+.rgba p{
+    color: rgba(0, 0, 0, 0.5);
 }
 
 /*Este es el modelo HEX*/
@@ -31,7 +35,7 @@ RGB*/
 
 /*Modelo HSL*/
 .hsl{
-    background-color: hsl(34, 100%, 50%);
+    background-color: hsl(49, 100%, 50%);
     color: hsl(0, 0%, 0%);
 }
 
@@ -70,17 +74,28 @@ RGB*/
 }
 
 .border{
-    background-color: #ffffff;
+    background-color: #3086ad;
     border-style: solid;
-    border-color:#ff08c9
+    border-color: #ff08c9;
     /*border-whith*/
+    border-width: 10px;
 }
 
 .lineal{
+    color: rgb(0, 255, 34);
     background-image: linear-gradient(to top,red,blue)
 }
 
 
 .radial{
+    color: rgb(0, 255, 34);
     background-image: radial-gradient( blue, red)
+}
+
+.multinavegador p{
+    color: rgb(0, 0, 0);
+}
+
+.degradado p{
+    color: rgb(0, 0, 0);
 }
