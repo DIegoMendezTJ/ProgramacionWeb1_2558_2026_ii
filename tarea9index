@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Mendez Tinoco Diego Johan">
+    <title>Bordes y Fondos CSS</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+      
+     <header id="encabezado">
+        <h1>Fondos y sus propiedades</h1>
+     </header>
+
+    <main>|
+        <section class="fondo-lobo">
+            <p>
+                Esto es un lobo
+            </p>
+            
+         </section>
+         <section class="fondo-araña">
+      
+            <p>
+                Esto es una araña
+            </p>        
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+           <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </section>
+    </main>
+  
+
+         
+</body>
+</html>
