@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Mendez TInoco Diego Johan">
+    <title>BOX MODEL Y TEXTO EN CSS</title>
+    <link rel="stylesheet" href="css/css_estilos.css">
+
+
+</head>
+<body>
+    <br><br><br>
+    
+     <header id="encabezado">
+    <h1>Propiedades del modelo de caja (Box_Model) y texto en CSS</h1>
+
+     </header>    
+     <br><br><br><br><br>
+     <section class="introduccion">
+        <p>
+            Existen 5 propiedades que tienen los elementos HTML en bloqe, se pueden
+            modificar segun el diseño de nuestra pagina y son:
+        </p>
+
+        <ol type="I">
+            <li>Height</li>
+            <li>Width</li>
+            <li>Padding</li>
+            <li>Border</li>
+            <li>Margin</li>
+        </ol>
+
+
+     </section>
+     <main id="contenido_principal">
+        <section class="texto-fuente">
+            <article class="propiedades-texto">
+                <h2>Texto y sus propiedades</h2>
+                <p>Color, Text-aling(left,center,right,justify), Line-height(number, normal, inherit), Text-Transform(uppercase, lowercase, capitalize, none),
+                    Text-decoration(underline, overline, line-througt y none), Text-shadow (distance-horizontal distancia-vertical radio-desenfoque color,)
+                    letter-soacing(px, em, %, rem, normal), word-spacing(px, em, %, rem, normal.)
+                </p>
+            </article>
+            <article class="propiedades-fuentes">
+                <h2>Fuentes y sus propiedades</h2>
+                <p>
+                    Font-family({"Arial, sans-serif", "Corier New"}
+                    {Times, serif, "Times New ROman"} {Courier, monospace, "Open Sans"})
+                    Font-size(px, em, %, rem), Font-Weiht(BOld, bolder, ligther, 100-900),
+                    Font-Style(normal, italic, oblique e inherit)
+                <!--Esto se hace para indicar al html que si no se encuentra un tipo de fuente se tiene que buscar otra de las especificads, se recomienda poner 3 minimo-->
+                </p>
+            </article>
+        </section>
+     </main>
+</body>
+</html>
