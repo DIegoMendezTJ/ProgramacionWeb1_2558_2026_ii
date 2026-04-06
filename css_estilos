@@ -1,0 +1,45 @@
+#encabezado{
+    color: aqua;
+    background-color: black;
+    /*WIdth y height modifican el tamaño de un elemento en bloque HTML*/
+    height: 100px;
+    /*rELLENO: Es el espaciado entre el contenido del elemento y su borde
+    Para definir sus propiedades se alica un sentindo horario (top, right, bottom, left).
+    padding: 10px 10px 10px 10px*/
+    padding: 10px  ;
+    /*MArgen: Es el espacio entre el border de un elemento y los demas elementos HTML
+    Se aplican las mimas medidades de padding Margen:10px 10px 10px 10px
+    
+    El borde es el limite de un elemento HTML, valores para border-style (solid, dotted, dashed, groove. ridge, insert
+    outser, hidden y none )
+    */
+    border: 10px groove gold;
+    border-top-color: silver;
+    border-right-color:purple ;
+    border-left-color: orange ;
+    border-radius: 20%;
+    /*box-shadow Se puede utilizar para crear efectos de sombre alrededor del borde del elemento HTML
+    Se debe de especificar en este orden; desplazamiento-horizontal, desplazamiento-vertical, radio de desenfoque y radoo de propogacion de color*/
+    box-shadow: 10px 1px 20px 20px green;
+    /*box-sizing:border-box se utiliza pra que rellenos, margenes y bordes se ajusten a la medida incial del elemento HTML y no agregue espacio extra a la declaracion inicial*/
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.introduccion{
+    color: gold;
+    background-color: black;
+
+    border: 10px groove silver;
+    border-top-color: gold;
+    border-right-color:orange ;
+    border-left-color: purple ;
+    border-radius: 10%;
+
+    box-shadow: 10px 1px 20px 20px green;
+
+    box-sizing: border-box ;
+
+
+}
+}
