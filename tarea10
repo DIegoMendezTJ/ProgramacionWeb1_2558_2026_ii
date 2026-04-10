@@ -10,13 +10,12 @@
 
 </head>
 <body>
-    <br><br><br>
+    
     
      <header id="encabezado">
     <h1>Propiedades del modelo de caja (Box_Model) y texto en CSS</h1>
 
      </header>    
-     <br><br><br><br><br>
      <section class="introduccion">
         <p>
             Existen 5 propiedades que tienen los elementos HTML en bloqe, se pueden
@@ -30,7 +29,8 @@
             <li>Border</li>
             <li>Margin</li>
         </ol>
-
+        
+        <span>Este es un elemento em linea</span>
 
      </section>
      <main id="contenido_principal">
