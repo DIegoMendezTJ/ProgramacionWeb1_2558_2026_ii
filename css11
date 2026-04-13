@@ -1,0 +1,89 @@
+html{
+
+font-size: 10px;
+
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/*Orden de estilos para enlaces (LVFH)*/
+
+a:link{
+
+    color: chocolate;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: rgba(11, 218, 97, 0.808);
+}
+
+a:focus{
+    color: red;
+    background-color: aqua;
+    border: 0.2rem solid gold;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: red;
+    background-color: white;
+    border: 0.2rem solid gold;
+}
+
+a:active{
+    color: blue;
+    text-decoration: none;
+
+}
+
+#encabezado{    
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+#encabezado h1{
+    font-size: 2.5rem;
+    text-shadow: 0.2rem  0.2rem  0.2rem goldenrod;
+
+}
+
+.navegacion{
+    border: 0.2rem solid red;
+    background-color: aquamarine;
+}
+
+.estados-enlaces{
+    background-color: black;
+    color: rgb(0, 217, 255);
+    
+}
+
+.estados-enlaces h2{
+   text-align: center;
+}
+
+.estados-enlaces ul{
+
+   border: 0.2rem double gold;
+   padding: 0;
+}
+
+
+/*Estilos listas*/
+
+.estados-enlaces ul li{
+   border: 0.2rem solid rgb(9, 204, 74);
+   /*List-style-tipe (disc, decimal. circle, square, lower-roman, lower-alpha, upper-alpha, none,  */
+/*list-style-type: lower-greek;*/
+list-style-image: url('https://edube.org/uploads/media/default/0001/04/oedg_icon_regular.png');
+list-style-position: inside;
+
+}
