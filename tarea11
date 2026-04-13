@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Mendez Tinoco Diego Johan">
+    <link rel="stylesheet" href="css/css_estilos.css">
+    <title>Estilos Enlaces y Listas</title>
+</head>
+<body>
+
+     <header id="encabezado">
+        <h1>Estilos Enlaces y Listas</h1>
+     </header>
+
+     <section class="navegacion">
+        <article class="estados-enlaces" >
+            <h2>Estados de los enlaces</h2>
+            <ul>
+                <li><a href="https://youtube.comm" target="_blank">Normal </a></li>
+                <li><a href="https://facebook.com" target="_blank">Visitado</a></li>
+                <li><a href="">Focus</a></li>
+                <li><a href="">Hover</a></li>
+                <li><a href="">Activo</a></li>
+            </ul>
+        </article>
+     </section>
+    
+</body>
+</html>
