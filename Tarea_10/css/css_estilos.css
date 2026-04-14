@@ -9,7 +9,7 @@ body{
     color: aqua;
     background-color: black;
     /*WIdth y height modifican el tamaño de un elemento en bloque HTML*/
-    height: 100px;
+    height: 150px;
     /*rELLENO: Es el espaciado entre el contenido del elemento y su borde
     Para definir sus propiedades se alica un sentindo horario (top, right, bottom, left).
     padding: 10px 10px 10px 10px*/
@@ -37,9 +37,11 @@ body{
 #encabezado h1{
     text-align: center;
     text-decoration: underline;
-    font-size: 1em;
+    font-size: 3em;
+    font-family: "Bitcount Grid Double", system-ui;
     font-family: "Bitcount Grid Double", system-ui;
 }
+
 
 
 .introduccion{
