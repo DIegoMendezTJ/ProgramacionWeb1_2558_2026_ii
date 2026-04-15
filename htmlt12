@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Mendez Tinoco Diego Johan">
+    <title>Estilos a Tablas</title>
+    <link rel="stylesheet" href="css/css_estilos.css">
+
+</head>
+<body>
+    
+      <header id="encabezado">
+        <h1>Estilos a Tablas</h1>
+      </header>
+
+      <section class="contenedor-tabla">
+        <table class="tabla-alumnos">
+            <tr>
+                 <th>Nombre</th>
+                 <th>Apellido Paterno</th>
+                 <th>Apellido Materno</th>
+                 <th>Numero de Cuenta</th>
+            </tr>
+
+            <tr>
+                <td>Jimena</td>
+                <td>Lopez</td>
+                <td>Velarde</td>
+                <td>1234567890</td>
+
+            </tr>
+            
+
+            <tr>
+                 <td>Pedro</td>
+                 <td>Jimenez</td>
+                 <td>Vilegas</td>
+                 <td>1234567890</td>
+
+
+            </tr>
+
+            <tr>
+                 <td>Ian</td>
+                 <td>Lopez</td>
+                 <td>Buena vista</td>
+                 <td>1234567890</td>
+
+
+            </tr>
+
+            <tr>
+                 <td>Andre</td>
+                 <td>Guzman</td>
+                 <td>Gonzales</td>
+                 <td>1234537890</td>
+
+
+            </tr>
+
+                    <tr>
+                 <td>Andre</td>
+                 <td>Guzman</td>
+                 <td>Gonzales</td>
+                 <td>1234537890</td>
+
+
+            </tr>
+
+                    <tr>
+                 <td>Andre</td>
+                 <td>Guzman</td>
+                 <td>Gonzales</td>
+                 <td>1234537890</td>
+
+
+            </tr>
+
+        </table>
+      </section>
+
+</body>
+</html>
