@@ -14,7 +14,7 @@ body{
     border: 0.7rem solid black;
     padding: 0%;
     position: sticky;
-    height: 26rem;
+    height: 35rem;
     top: 0;
     width: 80%;
 }
@@ -28,8 +28,8 @@ body{
 
 .logo{
     border: 0.2rem solid goldenrod;
-    width: 20%;
-    height: 40%;
+    width: 18%;
+    height: 60%;
     border-radius: 50%;
     box-shadow: 0.5rem  0.9rem  0.5rem ;
 
@@ -53,10 +53,10 @@ body{
 }
 
 #elementos-posicionados{
-      border: 0.2rem solid gold;
-      padding: 1rem;
-      position: relative;
-      margin-top: 30rem;
+    border: 0.2rem solid gold;
+    padding: 1rem;
+    position: relative;
+    margin-top: 30rem;
 }
 
 /*#elementos-posicionados section:nth-child(1){
@@ -79,8 +79,7 @@ body{
 .lobo{
     position: absolute;
     top: 0.2rem;
-    left: 3rem;
-    right: 0rem;
+    right: 3rem;
     bottom: 10rem;
 }
 
