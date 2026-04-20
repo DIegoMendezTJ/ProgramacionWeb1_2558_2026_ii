@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=" Author" name="MEndez Tinoco Diego Johan">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="imagenes/">
+
+    <title id="titulo">Posicisionamiento CSS</title>
+</head>
+<body>
+
+    <header id="encabezado">
+        <section class="logo">
+            <img src="imagenes/mcdonals.webp" alt="">
+        </section>
+
+        <h1>Posicionamiento CSS</h1>
+        <nav id="navegacion">
+            <ul>
+                <li> <a href="#" target="_blank">link 1</a></li>
+                <li><a href="#" target="_blank">link 2</a></li>
+                <li><a href="#" target="_blank">link 3</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main id="elementos-posicionados">
+        <section class="contenedor-imagen lobo" >
+            <img src="imagenes/lobo.webp" alt="">
+
+        </section>
+
+        <section class="contenedor-imagen perro ">
+            <img src="imagenes/perro.jpg" alt="">
+
+        </section>
+
+        <section class="contenedor-imagen gato ">
+            <img src="imagenes/gato.webp" alt="">
+
+        </section>
+
+        <section class="contenedor-imagen lobo2">
+            <img src="imagenes/lobo.webp" alt="">
+
+        </section>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    </main>
+    
+</body>
+</html>
