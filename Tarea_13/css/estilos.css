@@ -10,28 +10,36 @@ body{
     color: aqua; 
 }
 
+
+
 #encabezado{
     border: 0.7rem solid black;
     padding: 0%;
-    position: sticky;
-    height: 35rem;
+    position: relative;
+    height: 40rem;
     top: 0;
-    width: 80%;
+    width: 100%;
 }
 
 #encabezado h1{
     font-size: 2.5rem;
     text-shadow: 0.2rem 0.2rem 0.2rem solid black ;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 15rem;
+    
 
 
 }
 
 .logo{
     border: 0.2rem solid goldenrod;
-    width: 18%;
+    width: 20%;
     height: 60%;
     border-radius: 50%;
     box-shadow: 0.5rem  0.9rem  0.5rem ;
+    position: absolute;
+    bottom: 20%;
 
 
 }
@@ -48,15 +56,23 @@ body{
 #navegacion{
     border: 0.5rem solid green;
     color: white;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    width: 20%;
+    height: 30%;
+    font-size: 20px;
+    text-align: justify;
     
 
 }
 
 #elementos-posicionados{
-    border: 0.2rem solid gold;
-    padding: 1rem;
-    position: relative;
-    margin-top: 30rem;
+      border: 0.2rem solid gold;
+      padding: 1rem;
+      position: relative;
+      margin-top: 30rem;
+      height: 300%;
 }
 
 /*#elementos-posicionados section:nth-child(1){
@@ -81,10 +97,38 @@ body{
     top: 0.2rem;
     right: 3rem;
     bottom: 10rem;
+    filter: saturate(300%);
 }
 
 .gato{
-    position: relative;
-    left: 50%;
-    top: 50%;
+    position: sticky   ;
+    left: 40%;
+    top: 3rem;
+    filter: sepia(100%) ;
 }
+
+.lobo2{
+    height: 100%;
+    position: sticky;
+    left: 0%;
+    filter: brightness(3);
+}
+
+.perro{
+    position: relative;
+    filter: blur(0.2rem);
+}
+
+/*filter
+blur(em, rem, px) va a aplicar desenfoque a nuestra imagen
+Brightness(0-1, 1, 1-5) va  aplicar brillo
+Contrast(0-1, 1, 1-5 ) va a aplicar constraste
+grayscale(%) Convertir el elemento en escala de grises
+Invert(1 sin cambios, 0 invierte los colores)
+sepia(%) Aplica el tono sepia a la imagen
+saturation satura la imagen
+z-index se usa para suponer una imagen de itra agregando un indice mayor el indice por default es 1 
+entonces poner un index mayor para sobreponerlo
+
+
+*/
