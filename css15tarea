@@ -1,0 +1,77 @@
+html{
+    font-size: "en";
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(yellow, red);
+    
+}
+
+#encabezado{
+    border: 0.7rem solid black;
+    padding: 0%;
+    position: relative;
+    height: 40rem;
+    top: 0;
+    width: 100%;
+}
+
+#encabezado h1{
+    font-size: 2.5rem;
+    text-shadow: 0.2rem 0.2rem 0.2rem solid black ;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 15rem;
+    color: purple;
+    
+
+
+}
+
+.logo{
+    border: 0.2rem solid goldenrod;
+    width: 20%;
+    height: 60%;
+    border-radius: 50%;
+    box-shadow: 0.5rem  0.9rem  0.5rem ;
+    position: absolute;
+    bottom: 20%;
+
+
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+
+
+}
+
+.contenedor-flexible{
+    border: 0.2rem solid rgb(0, 0, 0);
+    color: black;
+    padding: 0.5rem;
+    display: flex;/*Display flex hace un contendor flexible y QUE se acmode por Si  solo */
+    flex-direction: column; /*Flex direction define el eje principla que va a trabajar flex box por defecto este eje esta en horizontal con row*/
+    /*EL coluomn reverse invierte los contenidos de 3 a 1 y lo mismos para las rows*/
+    /*Justify-content: Define como se otorga el espacio en el contenedor flexible a los objetos flexibles de dicho contenedor en el eje seleccionado como main.axis (x o y)*/
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100rem;
+    /*Allign-items Define como se distribuye el espacio de los objetos flexibles a lo largo del eje cruzado en (cross-axis(x,y))*/
+    align-items: stretch;
+}
+
+.contenedor-flexible article{
+    background-color: purple;
+    height: 20rem;
+       /* width: 20rem; eso esta comentado para estirar los contenedores flexibles con stech*/
+
+    border: 0.5rem  solid black;
+    color: yellow;
+    margin: 0.3rem;
+}
