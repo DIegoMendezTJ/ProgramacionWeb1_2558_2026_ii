@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Mendez Tinoco Diego Johan">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="imagenes/">
+   <title id="titulo">FLEX BOX </title>
+
+
+
+</head>
+<body>
+
+    <header id="encabezado">
+        <section class="logo">
+            <img src="imagenes/mcdonals.webp" alt="">
+        </section>
+
+        <h1>FLEX BOX</h1>
+        <nav id="navegacion">
+            <ul> <br><br><br><br><br><br><br><br><br><br>
+                <li> <a href="#" target="_blank">link 1</a></li>
+                <li><a href="#" target="_blank">link 2</a></li>
+                <li><a href="#" target="_blank">link 3</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section class="contenedor-flexible">
+        <article>
+            <p>
+                   Objeto flexible 1
+            </p>
+         </article>
+
+         <article><p>
+                   Objeto flexive 2
+
+         </p>
+         </article>
+
+         <article><p>
+                   Objeto flexible 3
+        </p>
+      </article>
+     </section>
+
+     </body>
+     </html>
